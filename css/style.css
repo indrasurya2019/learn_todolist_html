@@ -1,0 +1,55 @@
+.item-list {
+
+    border: 2px orange solid;
+    box-sizing: border-box;
+    height: 300px;
+    width: 315px;
+    margin-top: 10px;
+}
+
+.item-ul {
+    text-align: center;
+    list-style: none;
+
+}
+
+
+.wrap-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.myspan {
+    margin-right: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+
+
+.mybutton {
+    margin-left: 15px;
+    background: rebeccapurple;
+    color: white;
+    border-radius: 18%;
+    width: max-content;
+    height: 30px;
+}
+
+
+.myheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-flex {
+    display: flex;
+    justify-content: center;
+}
